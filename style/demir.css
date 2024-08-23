@@ -30,4 +30,5 @@ section {
     height: 500px;
     border-radius: 10px;
     text-align: center;
+    align-self: start;
 }
