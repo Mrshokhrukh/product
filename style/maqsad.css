@@ -1,0 +1,29 @@
+.home-home-page{
+    display: flex;
+    flex-direction: row;
+    padding: 105px 150px 10px 159px;
+    align-items: center;
+    justify-content: space-between;
+}
+.home_left{
+    display: flex;
+    flex-direction: column;
+    
+}
+.butns{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+}
+.home_left h2{
+    font-size: 40px;
+    font-weight: 60;
+    width: 518px;
+    height: 120px;
+}
+.home_left p{
+    font-size: 18px;
+    font-weight: 28;
+    width: 458px;
+    height: 95px;
+}
