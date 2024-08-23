@@ -9,7 +9,6 @@
     padding: 0 120px;
     position: sticky;
     top: 0;
-    
 }
 
 .header * {
@@ -35,7 +34,7 @@
 }
 
 .logo h1 {
-    color:#173A56;
+    color: #173A56;
     font-size: 30px;
     font-weight: 700;
 
