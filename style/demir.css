@@ -1,7 +1,8 @@
 .price {
     width: 100%;
     height: 100vh;
-    padding: 50px 200px;
+    padding: 100px 200px;
+    margin-top: 300px;
 }
 .text-top {
     text-align: center;
@@ -32,5 +33,45 @@
     height: 500px;
     border-radius: 10px;
     text-align: center;
-    align-self: start;
+    color: #22343D;
+}
+.card h4 {
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 40px;   
+}
+
+.card p {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 40px;   
+}
+
+.card p {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 40px;   
+}
+
+.card span {
+    font-size: 76px;
+    font-weight: 700;
+    color: #02897A;
+}
+
+.card h1 {
+    line-height: 100px;
+}
+.card sup {
+    color: #02897A;
+    font-size: 30px;
+}
+.card sub {
+    color: #AFAFAF;
+    font-size: 16px;
+    font-weight: 400;
+}
+.card button {
+    margin-top: 35px;
+    padding: 12px 20px;
 }
