@@ -1,6 +1,5 @@
 #our-workers{
     width: 100%;
-    height: 70vh;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -39,4 +38,12 @@
     height: 100%;
     border-radius: 50%;
     object-fit: cover;
+}
+
+#our-workers .our-workers-bg{
+    position: absolute;
+    width: 100%;
+    height: 500px;
+    border-radius: 50%;
+    background: #f7f7f7;
 }
