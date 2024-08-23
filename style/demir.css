@@ -73,5 +73,16 @@
 }
 .card button {
     margin-top: 35px;
-    padding: 12px 20px;
+    padding: 12px 35px;
+    background-color: #02897A;
+    border: none;
+    border-radius: 7px;
+    color: #fff;
+    font-weight: 600;
+    font-size: 17px;
+    cursor: pointer;
+}
+.cards #active {
+    background-color: #02897A;
+    color: #fff;
 }
