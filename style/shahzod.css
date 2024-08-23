@@ -4,5 +4,6 @@ header{
     background-color: #fff;
     display: flex;
     padding: 120px;
+    position: sticky;
 
 }   
