@@ -1,81 +1,135 @@
-*{
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.flex {
+  display: flex;
+  align-items: center;
+  gap: 80px;
 }
 
 .section-2 {
-    width: 100%;
-    height: 100vh;
-  }
-  .product_descriptions {
-    width: 100%;
-    height: 100px;
-    background-color: rgba(237, 237, 237, 0.584);
-    text-align: center;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-  }
-  .product_descriptions h1 {
-    width: 539px;
+  width: 100%;
+  height: 100vh;
+}
+
+.product_descriptions {
+  width: 100%;
+  height: 100px;
+  background-color: rgba(237, 237, 237, 0.584);
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.product_descriptions h1 {
+  width: 539px;
+  font-family: Poppins;
+  font-size: 32px;
+  font-weight: 700;
+  line-height: 48px;
+  text-align: center;
+}
+
+.products {
+  background-color: rgba(237, 237, 237, 0.546);
+  width: 100%;
+  height: 100%;
+  padding-bottom: 100px;
+  border-radius: 0 0 50px 50px;
+}
+
+.product_div {
+  display: flex;
+  justify-content: space-between;
+}
+
+.first_clik {
+  width: 250px;
+  padding: 50px 20px;
+}
+
+.first_clik h3 {
+  font-family: Poppins;
+  font-size: 22px;
+  font-weight: 600;
+  line-height: 33px;
+  text-align: left;
+  padding: 30px 0px 13px 0px;
+}
+
+.first_clik p {
+  font-family: Poppins;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+  text-align: left;
+}
+
+.products_button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.products_btn {
+  width: 175px;
+  height: 53px;
+  gap: 0px;
+  opacity: 0px;
+  background-color: rgba(2, 137, 122, 1);
+  border: none;
+  font-family: Poppins;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 24px;
+  color: rgba(255, 255, 255, 1);
+  cursor: pointer;
+}
+
+.products_btn:hover {
+  background-color: transparent;
+  color: rgba(2, 137, 122, 1);
+  transition: all 0.3s linear;
+}
+
+.validation_discriptions h3 {
+  font-family: Poppins;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 24px;
+  text-align: left;
+  color: rgba(34, 52, 61, 1);
+  padding-bottom: 8px;
+}
+.validation_discriptions h1 {
+  font-family: Poppins;
+  font-size: 32px;
+  font-weight: 700;
+  line-height: 48px;
+  text-align: left;
+  padding-bottom: 23px;
+  color: rgba(34, 52, 61, 1);
+}
+.validation_discriptions p{
+    width: 486px;
+height: 78px;
     font-family: Poppins;
-    font-size: 32px;
-    font-weight: 700;
-    line-height: 48px;
-    text-align: center;
-  }
-  .products {
-    background-color: rgba(237, 237, 237, 0.546);
-    width: 100%;
-    height: 100%;
-    padding-bottom: 100px;
-    border-radius: 0 0 50px 50px;
-  }
-  .product_div {
-    display: flex;
-      justify-content: space-between;
-  }
-  .first_clik {
-    width: 250px;
-    padding: 50px 20px;
-  }
-  .first_clik h3 {
+font-size: 16px;
+font-weight: 400;
+line-height: 26px;
+text-align: left;
+color: rgba(34, 52, 61, 1);
+margin-bottom: 30px;
+}
+.validation_discriptions h2{
     font-family: Poppins;
-    font-size: 22px;
-    font-weight: 600;
-    line-height: 33px;
-    text-align: left;
-    padding: 30px 0px 13px 0px;
-  }
-  .first_clik p {
-    font-family: Poppins;
-    font-size: 16px;
-    font-weight: 400;
-    line-height: 26px;
-    text-align: left;
-  }
-  .products_button{
-      display: flex;
-      align-items: center;
-      justify-content: center;
-  }
-  .products_btn{
-    width: 175px;
-    height: 53px;
-    gap: 0px;
-    opacity: 0px;
-    background-color: rgba(2, 137, 122, 1);
-    border: none;
-    font-family: Poppins;
-    font-size: 16px;
-    font-weight: 700;
-    line-height: 24px;
-    color: rgba(255, 255, 255, 1);
-    cursor: pointer;
-  }
-  .products_btn:hover{
-      background-color: transparent;
-      color: rgba(2, 137, 122, 1);
-      transition: all 0.3s linear;
-  }
+font-size: 16px;
+font-weight: 600;
+line-height: 26px;
+text-align: left;
+color: rgba(34, 52, 61, 1);
+}
